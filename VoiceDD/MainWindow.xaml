@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <WrapPanel HorizontalAlignment="Left" Height="260" Margin="22,29,0,0" VerticalAlignment="Top" Width="462">
+            <Button x:Name="btnTest" Content="Button" Width="75" Click="btnTest_Click"/>
+        </WrapPanel>
+
     </Grid>
 </Window>
